@@ -1,0 +1,17 @@
+body {
+    background-color: #202326;
+}
+h2 {
+    color: #f0ebdb
+}
+footer {
+    text-align: center;
+    background-color: #3e444a;
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
