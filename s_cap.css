@@ -45,17 +45,17 @@ ul {
     position: fixed;
     height: 90%;
     overflow: auto;
-    margin-top: 20px;
-    margin-left:12px;
-    margin-right:12px;
-    margin-bottom: 5px;
+    margin-top: 1.25em;
+    margin-left:.75em;
+    margin-right:.75em;
+    margin-bottom:.3125em;
     font-size: medium;
 }
 
 li a {
     display:block;
     color: white;
-    padding: 20px 20px 40px;
+    padding: 1.25em 1.25em 2.5em;
     text-decoration: none;
     font-family: Bahnschrift;
 
@@ -65,13 +65,13 @@ li a {
 li a.active {
     background-color: #755d2f;
     color: white;
-    padding:20px 20px 30px;
+    padding:1.25em 1.25em 1.875em;
 }
 
 li a:hover:not(.active) {
     background-color: #596f79;
     color: white;
-    padding:20px 20px 30px;
+    padding:1.25em 1.25em 1.875em;
 }
 
 .content{
