@@ -15,7 +15,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position:fixed;
+
 }
 
 
@@ -50,6 +51,7 @@ ul {
     margin-right:.75em;
     margin-bottom:.3125em;
     font-size: medium;
+    ;
 }
 
 li a {
@@ -75,14 +77,15 @@ li a:hover:not(.active) {
 }
 
 .content{
-    margin-left: 20%;
-    margin-right:15%;
-    padding:1px 16px;
+    align-content: center;
+    margin-left:10%;
     height:1000px;
-    width:70%;
-    color: #ffffff;
-    font-size: 20px;
+    width: 70%;
+    color: white;
+    font-size: larger;
     font-family: Bahnschrift;
+}
+
 }
 
 
@@ -111,4 +114,54 @@ li a:hover:not(.active) {
 
 body::-webkit-scrollbar {
     width: 11px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: #40474f;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: #40474f;
+    display: block;
+    font-family: Bahnschrift;
+    transition: 0.3s;
+}
+
+.sidenav a.active {
+    background-color: #755d2f;
+    color: white;
+    padding:20px 20px 30px;
+}
+
+
+.sidenav a:hover:not(.active) {
+    color: white;
+    background-color: #596f79;
+    padding:20px 20px 30px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
