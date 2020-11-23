@@ -123,7 +123,7 @@ body::-webkit-scrollbar {
 /* Create two equal columns that floats next to each other */
 .column-1{
     float: left;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     height: 200px; /* Should be removed. Only for demonstration */
     margin:3%;
@@ -131,7 +131,7 @@ body::-webkit-scrollbar {
 }
 .column-2{
     float: right;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     height: 200px; /* Should be removed. Only for demonstration */
     margin-bottom:10%;
