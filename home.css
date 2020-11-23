@@ -1,17 +1,107 @@
 body {
     background-color: #202326;
 }
-h2 {
-    color: #f0ebdb
+h1{
+    color: #fafad2;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: 40px;
 }
+
+h2{
+    text-align: center;
+    color: #fafad2;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #40474f;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    font-family: Bahnschrift, serif;
+    background-color: #40474f;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    background-color: #755d2f;
+    color: white;
+}
+
+.navbar a:hover:not(.active) {
+    color: white;
+    background-color: #596f79;
+}
+
+.dropdown {
+    float: right;
+}
+
+.dropdown .dropbtn:hover {
+    color: white;
+    background-color: #596f79;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: Bahnschrift, serif;
+    background-color: #40474f;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #40474f;
+    min-width: 160px;
+    z-index: 1;
+    float: right;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    font-family: Bahnschrift, serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #596f79
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 footer {
     text-align: center;
-    background-color: #3e444a;
+    background-color: #40474f;
     color: white;
-    font-size: 15px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
     left: 0;
     bottom: 0;
     width: 100%;
     position: fixed;
+}
+
+p {
+    font-family: Bahnschrift, serif;
 }
