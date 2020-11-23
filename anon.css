@@ -1,0 +1,142 @@
+html{
+    background-color:#2D2E39;
+    --scrollbarBG:#2D2E39;
+    --thumbBG: #755d2f;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #40474f;
+    color: white;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+body {
+    margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.sidenav {
+    rgba(64, 71, 79, 0.7)
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: #40474f;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: #40474f;
+    display: block;
+    font-family: Bahnschrift, serif;
+    transition: 0.3s;
+}
+
+.sidenav a.active {
+    background-color: #755d2f;
+    color: white;
+    padding:20px 20px 30px;
+}
+
+
+.sidenav a:hover:not(.active) {
+    color: white;
+    background-color: #596f79;
+    padding:20px 20px 30px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.content{
+    align-content: center;
+    margin-left:15%;
+    margin-right: 15%;
+    height:1000px;
+    width: 70%;
+    color: white;
+    font-size: larger;
+    font-family: Bahnschrift, serif;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: xx-large;
+    color: #fafad2;
+    font-family: "Dubai Light", serif;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    color: lightblue;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+p{
+    font-family: Bahnschrift, serif;
+}
+
+button {
+    padding: 10px 25px;
+    margin-left: 35%;
+    font-size: 14px;
+    font-family: "Dubai", serif;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #755d2f;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+}
+
+button:hover {background-color: #5D4C2A}
+
+button:active {
+    background-color: #5D4C2A;
+    transform: translateY(4px);
+}
+
