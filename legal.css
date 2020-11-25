@@ -197,6 +197,7 @@ body {
     margin:15px;
     position:relative;
     margint-top:20px;
+    text-align: center;
 }
 
 /* Middle column */
@@ -263,3 +264,16 @@ body {
     background-color:#5d6772;
 }
 
+.calltoaction {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-family: "Dubai", serif;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #755d2f;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+}
