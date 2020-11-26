@@ -2,9 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="fingerprint.css">
+    <script src="https://kit.fontawesome.com/0534bbffd1.js" crossorigin="anonymous"></script>
     <title>Browser Fingerprinting</title>
 </head>
 <body>
-hello
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up"></i></button>
+<div class="container-fluid">
+    <div class="topnav" id="myTopnav">
+
+        <div class="headerright">
+            <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/home.html">Home</a>
+            <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/thoughts.html">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Topics <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/anon.html">Becoming Anonymous</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/s_cap.html">Surveillance Capitalism</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/uss.html">United States of Secrets: Edward Snowden</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/fingerprint.html" class="active">Browser Fingerprinting</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/tracking.html">How You Are Tracked Online</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/facebook.html">Facebook Dilemma</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/laa.html">Look Alike Analysis</a>
+                    <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/legal.html">Legal Aspects of Online Privacy</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropbtn2">Projects <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content2">
+                    <a href="https://ffahad30.github.io/CloudTechnology/home.html">Cloud Marketing</a>
+                    <a href="https://ffahad30.github.io/HowTheInternetWorks/index">How The Internet Works</a>
+
+                </div>
+            </div>
+            <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/thoughts.html#contact">Contact</a>
+        </div>
+        <a class=logo href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/home.html">ALNOR&FAHAD</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<div class="content">
+    <div class=".container">
+        <div class="column side">
+
+            <h2>You're Probably Being Tracked Right Now</h2>
+            <p> Do you know how?</p>
+            <p>
+                <a href="https://ffahad30.github.io/OnlineMarketing-DataPrivacy/tracking.html">
+                    <button class="calltoaction">Click here to find out</button>
+                </a>
+            </p>
+
+
+
+            <p>
+                <img style="float: center;" src="https://images.unsplash.com/photo-1568495341369-1066472c7a27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80" alt="image" width="100%" height="400px" />
+
+
+            </p>
+        </div>
+    </div>
+    <div class="column middle">
+        <h1>Browser Fingerprinting <i class="fas fa-fingerprint"></i></h1>
+        <h2>What does "Browser Fingerprinting" Mean?</h2>
+        <p>Browser Fingerprinting is a way of identifying unique browsers and tracking online activities.
+            Moreover, a device fingerprint is information collected about a remote computing device for the purpose of identification. They can be used to fully or partially identify individual users and or their devices; this happens even when cookies are turned off.  Basically, when your phone or laptop connects to the internet the device will give specific data to the receiving server about the websites you visit. It is used to collect information about a lot: your browser type and version. Your operating system, active plugins, timezone, etc.  Websites hold a large set of data of visitors so they can match against the fingerprints of their known users. The positive side of browser fingerprinting is that it can identify botnets. Botnets are a string of computers coordinated to perform a task and are often associated with malware. Analyzing botnets can help in investigations against fraudsters and can help with other suspicious activities.
+        </p>
+
+        <h2>
+            Methods:
+        </h2>
+        <p>Tracking methods and data collection is really valuable because it means that advertising businesses can create a profile based on data. Nowadays, when you enter a website it notifies the user that they are using cookies
+
+
+        </p>
+
+
+
+    </div>
+</div>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+    <p>© Alnor and Fahad 2020  </p>
+</div>
+
+
 </body>
 </html>
