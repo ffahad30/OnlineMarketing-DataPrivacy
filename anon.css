@@ -235,6 +235,14 @@ body {
     position:relative;
 }
 
+a {
+    color: #0d6efd;
+}
+
+ul {
+    padding-inline-start: 16px;
+}
+
 .footer {
     position: fixed;
     left: 0;
