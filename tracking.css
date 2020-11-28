@@ -279,3 +279,6 @@ body {
     align-items: center;
 }
 
+ul{
+    padding-inline-start: 16px;
+}
